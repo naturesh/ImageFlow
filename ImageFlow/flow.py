@@ -24,11 +24,11 @@ class Flow():
         
         # random search params 랜덤 서치 파라미터 목록
         random_params = {
-            'learning_rate'  : [1e-5, 1e-4, 1e-3],
-            'weight_decay'   : [0, 1e-4, 1e-5],
-            'label_smoothing': [0, 0.01],
-            'batch_size'     : [16, 32],
-            'FFT'            : [False]
+            'learning_rate'  : [1e-5, 1e-4, 1e-3], # 학습률
+            'weight_decay'   : [0, 1e-4, 1e-5], # AdamW 옵티마이저 weight_decay
+            'label_smoothing': [0, 0.01], # 레이블 스무딩 
+            'batch_size'     : [16, 32], # 배치사이즈
+            'FFT'            : [False] # 풀 파인튜닝 여부 (False 경우 헤드만 학습)
         },
         random_n = 3 # 각 모델마다 몇번 랜덤 반복할지
         
