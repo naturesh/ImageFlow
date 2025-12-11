@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+
+name = "ImageFlow"
+
+version = "0.1.0"
+
+description = "Auto dataset collection and AutoML training pipeline for PyTorch image classification"
+
+license = { text = "MIT License" }
+
+authors = [
+    { name = "Naturesh" },
+]
+
+urls = { Repository = "https://github.com/naturesh/ImageFlow" }
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "beautifulsoup4==4.14.2",
+    "matplotlib==3.10.7",
+    "numpy==2.2.6",
+    "onnxruntime==1.23.2",
+    "Pillow==12.0.0",
+    "python-docx==1.2.0",
+    "requests==2.32.5",
+    "selenium==4.38.0",
+    "torch==2.9.1",
+    "torchvision==0.24.1",
+    "tqdm==4.67.1",
+    "open-clip-torch==3.2.0",
+]
+
+readme = "README.md"
+
+
+[tool.setuptools.packages]
+find = {}
