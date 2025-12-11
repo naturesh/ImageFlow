@@ -1,6 +1,6 @@
 ## Installation
 
-- 해당 프로젝트는 파이어폭스가 설치되어 있어야 합니다.
+- 해당 프로젝트는 파이어폭스, git 이 설치되어 있어야 합니다.
 
 ```pip install git+https://github.com/naturesh/ImageFlow.git```
 
@@ -163,5 +163,6 @@ folder_classification_with_text(
 )
 
 ```
+
 
 
