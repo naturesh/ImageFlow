@@ -63,7 +63,7 @@ random_params = {
     'batch_size'     : [16, 32],           # 배치사이즈
     'FFT'            : [False]             # 풀파인튜닝 여부 ( False : Head 만 학습 )
 }
-random_n = 2
+random_n = 2                               # 랜덤 서치 반복 횟수
 
 
 
@@ -162,3 +162,4 @@ folder_classification_with_text(
 )
 
 ```
+
